@@ -2,9 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>ポートフォリオ1</title>
+    <!-- jQueryの指定 -->
+    <script src="jquery-3.2.1.min.js"></script>
+
+    <!-- 共通部分の読み込み -->
+    <script type="text/javascript">
+      $(function() {
+        // header.htmlをid属性「header」という名前で読み込むように指定する
+        $("#header").load("header.html");
+      });
+    </script>
   </head>
   <body>
+    <div id="header">                 <!-- 前回分割したところ -->
+      <div id="header"></div>         <!-- header.htmlをここに表示する -->
+    </div>
     <p>Hello World!</p>
   </body>
 </html>
