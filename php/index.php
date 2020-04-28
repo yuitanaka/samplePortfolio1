@@ -5,7 +5,7 @@
     <title>ポートフォリオ1</title>
   </head>
   <body>
-    <?php $val=include('./header.php'); ?>
+    <include('./header.php');>
     <p>Hello World！</p>
   </body>
 </html>
